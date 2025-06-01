@@ -13,23 +13,29 @@ const TypingText = ({ text = "", speed = 55, className = "" }) => {
 
     setDisplayed("");
     let index = 0;
-    let timeout;
+    let typingTimeout;
+    let initialDelay;
 
     const type = () => {
       if (index < text.length) {
         setDisplayed((prev) => prev + text.charAt(index));
         index++;
-        timeout = setTimeout(type, speed);
+        typingTimeout = setTimeout(type, speed);
       }
     };
 
-    type();
+    // Add this delay to avoid hydration issues
+    initialDelay = setTimeout(type, 80);
 
-    return () => clearTimeout(timeout);
+    return () => {
+      clearTimeout(initialDelay);
+      clearTimeout(typingTimeout);
+    };
   }, [text, speed]);
 
   return <span className={className}>{displayed}</span>;
 };
+
 
 // Terminal line display
 const TerminalLine = ({ command = "", output = "" }) => (
