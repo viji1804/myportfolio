@@ -72,7 +72,7 @@ function Home() {
     {
       command: "clubs --active",
       output:
-        '["KS Upahaar 🤝", "Daksh Infra & Logistics ⚙️", "E cell Developer Unit 💡", "ACE 🎯"]',
+        '["KS Upahaar ", "Daksh Infra & Logistics ", "E cell Developer Unit ", "ACE "]',
     },
     {
       command: "projects --highlights",
@@ -87,7 +87,7 @@ function Home() {
     {
       command: "fun-facts",
       output:
-        'user.viji.preferences = { theme: "dark 🌑", open tabs count: "dont ask ", leisure: "binge watch📺", hobby: "debugging bugs 🐞 and music" }',
+        'user.viji.preferences = { theme: "dark ", open tabs count: "dont ask ", leisure: "binge watch", hobby: "debugging bugs and music" }',
     },
     {
       command: 'echo "Always exploring. Always building. Always learning."',
@@ -132,13 +132,13 @@ function Home() {
                   transition={{ duration: 1 }}
                   className="text-5xl md:text-6xl font-extrabold bg-gradient-to-r from-cyan-400 via-fuchsia-500 to-yellow-400 bg-clip-text text-transparent drop-shadow-md"
                 >
-                  Hi, I'm Vijayalakshmi{" "}
+                  Hi, I'm Vijayalakshmi S
                   <motion.span
                     animate={{ y: [0, -5, 0] }}
                     transition={{ repeat: Infinity, duration: 1.6 }}
                     className="inline-block text-4xl"
                   >
-                    👩‍💻
+                
                   </motion.span>
                 </motion.h1>
 
