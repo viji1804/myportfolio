@@ -87,7 +87,7 @@ function Home() {
             className="mt-4 bg-black/50 px-5 py-4 rounded-md shadow-inner border border-gray-700 max-w-xl z-10 font-mono text-gray-200 text-base md:text-lg relative"
           >
             <TypingText
-              text=" Clean code, curious mind, and coffee close at hand."
+              text="&nbsp;Clean code, curious mind, and coffee close at hand."
               speed={35}
             />
           </motion.div>
@@ -133,36 +133,36 @@ function Home() {
             {isInView && (
               <>
                 <TerminalLine
-                  command="whoami"
-                  output=" Vijayalakshmi S, aka Viji"
+                  command="&nbsp;whoami"
+                  output="&nbsp;Vijayalakshmi S, aka Viji"
                 />
                 <TerminalLine
-                  command="cat vision.txt"
-                  output=" Turning complex problems into elegant tech — with full-stack power, AI curiosity, and a human-centered heart."
+                  command="\&nbsp;cat vision.txt"
+                  output="&nbsp;Turning complex problems into elegant tech — with full-stack power, AI curiosity, and a human-centered heart."
                 />
                 <TerminalLine
-                  command=" skills --list"
-                  output=" Refer to the skills section for the full categorized stack."
+                  command="&nbsp;skills --list"
+                  output="&nbsp;Refer to the skills section for the full categorized stack."
                 />
                 <TerminalLine
-                  command=" clubs --active"
-                  output=' ["KS Upahaar 🤝", "Daksh Infra & Logistics ⚙️", "E cell Developer Unit 💡", "ACE 🎯"]'
+                  command="&nbsp;clubs --active"
+                  output='&nbsp;["KS Upahaar 🤝", "Daksh Infra & Logistics ⚙️", "E cell Developer Unit 💡", "ACE 🎯"]'
                 />
                 <TerminalLine
-                  command=" projects --highlights"
-                  output=' Major projects listed below ↓ — see full details in the projects section. ["Face Recognition Attendance", "Gesture-Controlled Volume", "Discussion Forum"]'
+                  command="&nbsp;projects --highlights"
+                  output='&nbsp;Major projects listed below ↓ — see full details in the projects section. ["Face Recognition Attendance", "Gesture-Controlled Volume", "Discussion Forum"]'
                 />
                 <TerminalLine
-                  command=" mission"
-                  output=" To blend technology with purpose — designing smarter systems, more inclusive interfaces, and impactful innovations."
+                  command="&nbsp;mission"
+                  output="&nbsp;To blend technology with purpose — designing smarter systems, more inclusive interfaces, and impactful innovations."
                 />
                 <TerminalLine
-                  command=" fun-facts"
-                  output=' user.viji.preferences = { theme: "dark 🌑", open tabs count: "dont ask ", leisure: "binge watch📺", hobby: "debugging bugs 🐞 and music" }'
+                  command="&nbsp;fun-facts"
+                  output='&nbsp;user.viji.preferences = { theme: "dark 🌑", open tabs count: "dont ask ", leisure: "binge watch📺", hobby: "debugging bugs 🐞 and music" }'
                 />
                 <TerminalLine
-                  command=' echo "Always exploring. Always building. Always learning."'
-                  output=" Always exploring. Always building. Always learning."
+                  command='&nbsp;echo "Always exploring. Always building. Always learning."'
+                  output="&nbsp;Always exploring. Always building. Always learning."
                 />
               </>
             )}
