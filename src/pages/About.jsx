@@ -36,7 +36,7 @@ const educationAndExperience = [
     subtitle: "SASTRA Deemed University",
     date: "2022 – 2026",
     description:
-      "CGPA: 8.82/10. Minor in Supply Chain & Project Management. Honed skills in ML, DL & Software Engineering.",
+      "CGPA: 8.82/10. Minor specialization in Supply Chain & Project Management. Honed skills in ML, DL & Software Engineering.",
     icon: <FaUniversity />,
   },
   {
@@ -44,25 +44,25 @@ const educationAndExperience = [
     subtitle: "NIT Trichy",
     date: "Jun 2024 – Aug 2024",
     description:
-      "Developed a grievance redressal app for the TN Government using React Native & Firebase.",
+      "Developed a grievance redressal app for the TN Government using Android Studio & Firebase.",
     icon: <FaBriefcase />,
   },
-    {
-        title: "Matrimorphosis Training Program",
-        subtitle: "Campus to Corporate (C2C), Matrimony.com",
-        date: "Dec 2024 – Apr 2025",
-        description:
-          "Selected for C2C by Matrimony.com. Focused on corporate readiness and industry-relevant tech skills via structured mentorship.",
-        icon: <FaBullhorn />,
-      },
-      {
-        title: "PwC Data Analytics Launchpad",
-        subtitle: "Ongoing",
-        date: "2025",
-        description:
-          "Comprehensive training in data analytics, covering tools, techniques, and real-world problem-solving practices from PwC experts.",
-        icon: <FaCertificate />,
-      },
+  {
+    title: "Matrimorphosis Training Program",
+    subtitle: "Campus to Corporate (C2C), Matrimony.com",
+    date: "Dec 2024 – Apr 2025",
+    description:
+      "Selected for C2C by Matrimony.com. Focused on corporate readiness and industry-relevant tech skills via structured mentorship. Its full stack developement training program.",
+    icon: <FaBullhorn />,
+  },
+  {
+    title: "PwC Data Analytics Launchpad",
+    subtitle: "Ongoing",
+    date: "2025",
+    description:
+      "Comprehensive training in data analytics, covering tools, techniques, and real-world problem-solving practices from PwC experts.",
+    icon: <FaCertificate />,
+  },
 ];
 
 const extracurriculars = [

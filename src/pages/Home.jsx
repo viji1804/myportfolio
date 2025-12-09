@@ -77,7 +77,7 @@ function Home() {
     {
       command: "projects --highlights",
       output:
-        'Major projects listed below ↓ — see full details in the projects section. ["Face Recognition Attendance", "Gesture-Controlled Volume", "Discussion Forum"]',
+        'Major projects listed below ↓ — see full details in the projects section. ["Pneumonia Detection", "Gesture-Controlled Volume", "Discussion Forum"]',
     },
     {
       command: "mission",
@@ -137,9 +137,7 @@ function Home() {
                     animate={{ y: [0, -5, 0] }}
                     transition={{ repeat: Infinity, duration: 1.6 }}
                     className="inline-block text-4xl"
-                  >
-                
-                  </motion.span>
+                  ></motion.span>
                 </motion.h1>
 
                 {/* Subheading */}
